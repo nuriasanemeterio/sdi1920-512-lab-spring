@@ -1,7 +1,14 @@
 package com.uniovi.entities;
 
+
+import javax.persistence.*;
+
+@Entity
 public class Teacher {
 
+	
+	@Id
+	@GeneratedValue
 	private String name;
 	private Long id;
 	private String category;
